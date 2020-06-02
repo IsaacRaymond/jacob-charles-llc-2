@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<LINK REL=StyleSheet HREF="index.css" TYPE="text/css" MEDIA=screen>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <title>Jacob Charles Builder, LLC</title>
+  <body>
+    <script>document.body.className = "fade";</script>
+    <!--<div id="blur"></div>-->
+    <img class = "menu-button" id="menu-button-black" src="Resources/menu-button-black.png">
+    <img class = "menu-button" id="menu-button-white" src="Resources/menu-button-white.png" onclick = "dropDown()">
+    <div class = "dropdown" id="dropdown">
+      <a class = "link" href = "./index.html">Homepage</a>
+      <a class = "link" href = "./subpages-mobile/whoweare/whoweare.html">Who We Are</a>
+      <a class = "link" href = "./subpages-mobile/realestateinvestments/realestateinvestments.html">Real Estate Investments</a>
+      <a class = "link" href = "./subpages-mobile/projects/projects.html">Projects</a>
+      <a class = "link" href = "./subpages-mobile/homeproducts/homeproducts.html">Home Products</a>
+      <a class = "link" href = "./subpages-mobile/contact/contact.html">Contact</a>
+    </div><!--End dropdown-->
+    <div id = "body">
+      <!--Background picture is in main.js-->
+      <section id="title-section">
+        <h1 id="title"> J. C. B. </h1>
+        <!--<img src = "Resources/logo-white2.png" style="padding-top:5px;">-->
+        <h2 id="subtitle"><i> Jacob Charles Builder, LLC </i></h2>
+        <!--<p id="title-text">"I made a baby.  What could be harder to build?"</p>-->
+      </section>
+
+      <section id="example-work">
+        <div class="flex">
+          <h1 id="example-work-title"> EXEMPLAR </h1>
+          <div class = "example">
+            <a href = "./subpages-mobile/projects/projects.html">
+              <img src = "Resources/example3.png" class="example-images" onclick="goToProjects()">
+              <p class="example-text">STORAGE</p>
+            </a>
+          </div><!-- end electric -->
+          <div class = "example">
+            <a href = "./subpages-mobile/projects/projects.html">
+              <img src = "Resources/index/3rd_floor_apartment.jpg" class="example-images">
+              <p class="example-text">APARTMENT <br/>RENOVATIONS</p>
+            </a>
+          </div><!-- end piping -->
+
+          <div class = "example">
+            <a href = "./subpages-mobile/projects/projects.html">
+              <img src = "Resources/index/ceiling.jpg" class="example-images">
+              <p class="example-text">CEILING<br/>WORK</p>
+            </a>
+          </div><!-- end shed1 -->
+          <div class = "example">
+            <a href = "./subpages-mobile/projects/projects.html">
+              <img src = "Resources/index/deck.jpg" class="example-images">
+              <p class="example-text"> DECK</p>
+            </a>
+          </div><!-- end shed2 -->
+          <div class = "example">
+            <a href = "./subpages-mobile/projects/projects.html">
+              <img src = "Resources/index/large_structure.png" class="example-images">
+              <p class="example-text"> LARGE STRUCTURE <br/>WORK</p>
+            </a>
+          </div><!-- end shed2 -->
+          <div class = "example">
+            <a href = "./subpages-mobile/projects/projects.html">
+              <img src = "Resources/index/lighting.JPG" class="example-images">
+              <p class="example-text"> INDOOR<br/>LIGHTING</p>
+            </a>
+          </div><!-- end shed2 -->
+          <div class = "example">
+            <a href = "./subpages-mobile/projects/projects.html">
+              <img src = "Resources/index/living_room.jpg" class="example-images">
+              <p class="example-text"> LIVING<br/>ROOM</p>
+            </a>
+          </div><!-- end shed2 -->
+          <div class = "example">
+            <a href = "./subpages-mobile/projects/projects.html">
+              <img src = "Resources/index/millwork.JPG" class="example-images">
+              <p class="example-text"> MILLWORK</p>
+            </a>
+          </div><!-- end shed2 -->
+          <div class = "example">
+            <a href = "./subpages-mobile/projects/projects.html">
+              <img src = "Resources/index/whole_house_renovation.jpg" class="example-images">
+              <p class="example-text"> WHOLE HOUSE <br/>RENOVATION</p>
+            </a>
+          </div><!-- end shed2 -->
+          <div class = "example">
+            <a href = "./subpages-mobile/projects/projects.html">
+              <img src = "Resources/index/misc.JPG" class="example-images">
+              <p class="example-text"> MISC</p>
+            </a>
+          </div><!-- end shed2 -->
+        </div><!--end flex containter-->
+        <!--
+        <a href = "./subpages/projects/projects.html">
+          <button id="more-projects-button">View More Projects</button>
+        </a>
+      -->
+      </section>
+
+      <section id="customer-testimonials">
+        <h1 id="customer-testimonials-title"> Customer Testimonials</h1>
+        <div id = "customer-testimonials-div">
+          <div class = "arrows-hidden"><img src = "Resources/left-arrow.png" onclick="leftArrow()" style = "width: 40px;"></div>
+          <div class = "arrows-hidden"><img  src = "Resources/right-arrow.png" onclick="rightArrow()" style = "width: 40px;"></div>
+          <div class = "vertical-align" ><img class="selection-arrows" src = "Resources/left-arrow.png" onclick="leftArrow()"></div>
+          <div id="customer-testimonials-text">
+            <div id = "customer-testimonials-sliding-text">
+              <p>"He got me pregnant.  He got me pregnant.  He got me pregnant.  He got me pregnant.  He got me pregnant.  He got me pregnant.  He got me pregnant.  He got me pregnant.  He got me pregnant.  He got me pregnant.  He got me pregnant.  He got me pregnant.  He got me pregnant."</p>
+              <p>-Gia Charles</p>
+            </div>
+          </div>
+          <div class = "vertical-align"><img class="selection-arrows" src = "Resources/right-arrow.png" onclick="rightArrow()"></div>
+        </div>
+      </section>
+
+      <section class="footer">
+        <div class = "footer-text">
+          <h2> Jacob Charles Builder</h2>
+          <img src = "Resources/giaspicture.png" style="margin: auto;">
+          <p style="margin-top: 15px"> <i>"I made a baby "</i></p>
+        </div>
+        <div class="footer-text">
+          <h2> Contact </h2>
+          <p> 27 Pleasant Street, </p>
+          <p> Bath, ME 04530 </p>
+          <p> 207-491-0490 </p>
+        </div>
+        <div class="footer-text">
+          <h2> Social </h2>
+          <div>
+            <a href = "https://www.instagram.com/jacobcharlesbuilder/"><img src = "Resources/instagram.png" style="width:40px; padding:0px 8px 0px 8px;"></a>
+            <a href = "https://www.biggerpockets.com/users/JakeC4"><img src = "Resources/biggerpockets.jpg" style="width:40px; padding:0px 8px 0px 8px;"></a>
+          </div>
+        </div>
+      </section><!--End footer-->
+    </div>
+  </body>
+  <script src = "scripts-mobile/header.js"></script>
+  <script src = "scripts-mobile/customer testimonials.js"></script>
